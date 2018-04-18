@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ApiService } from './api.service';
+import { ApiServiceService } from './api-service.service';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +13,7 @@ export class AppComponent {
   private chartData: Array<any>;
 
 
-constructor(private _ApiService: ApiService) { }
+constructor(private _ApiService: ApiServiceService) { }
 
 
  ngOnInit() {
